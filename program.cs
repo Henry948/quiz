@@ -9,6 +9,29 @@ namespace Quiz
             Console.WriteLine("Welcome to 'The Quiz'\nPress enter to begin: ");
             string entry = Console.ReadLine();
             Tools.SetUpInputStream(entry);
+
+            string[] questions = new string[] 
+            {
+                "VW manufactures the RS5, TRUE or FALSE?",
+                "The MK6 Golf R is a 2.0L 4 wheel drive saloon, TRUE or FALSE?",
+                "America is the home country of Nissan, TRUE or FALSE?",
+                "Honda only manufacture cars for Asia, TRUE or FALSE?"
+            };
+
+            bool[] answers = new bool[] 
+            {
+                false, 
+                false, 
+                false, 
+                false, 
+            };
+
+            bool[] responses = new bool[4];
+
+            if (questions.Length != answers.Length)
+            {
+                Console.WriteLine("There seems to be an error");
+            }
         }
     }
 }
