@@ -57,7 +57,10 @@ namespace Quiz
                 askingIndex++;
             }
 
-            Console.WriteLine(responses);
+            foreach(bool response in responses)
+            {
+                Console.WriteLine(response);
+            }
         }
     }
 }
