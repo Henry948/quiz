@@ -1,0 +1,16 @@
+C:\Users\henry\OneDrive\Documents\GitHub\quiz\bin\Debug\net5.0\consoleasync.exe
+C:\Users\henry\OneDrive\Documents\GitHub\quiz\bin\Debug\net5.0\consoleasync.deps.json
+C:\Users\henry\OneDrive\Documents\GitHub\quiz\bin\Debug\net5.0\consoleasync.runtimeconfig.json
+C:\Users\henry\OneDrive\Documents\GitHub\quiz\bin\Debug\net5.0\consoleasync.runtimeconfig.dev.json
+C:\Users\henry\OneDrive\Documents\GitHub\quiz\bin\Debug\net5.0\consoleasync.dll
+C:\Users\henry\OneDrive\Documents\GitHub\quiz\bin\Debug\net5.0\ref\consoleasync.dll
+C:\Users\henry\OneDrive\Documents\GitHub\quiz\bin\Debug\net5.0\consoleasync.pdb
+C:\Users\henry\OneDrive\Documents\GitHub\quiz\obj\Debug\net5.0\consoleasync.csprojAssemblyReference.cache
+C:\Users\henry\OneDrive\Documents\GitHub\quiz\obj\Debug\net5.0\consoleasync.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\henry\OneDrive\Documents\GitHub\quiz\obj\Debug\net5.0\consoleasync.AssemblyInfoInputs.cache
+C:\Users\henry\OneDrive\Documents\GitHub\quiz\obj\Debug\net5.0\consoleasync.AssemblyInfo.cs
+C:\Users\henry\OneDrive\Documents\GitHub\quiz\obj\Debug\net5.0\consoleasync.csproj.CoreCompileInputs.cache
+C:\Users\henry\OneDrive\Documents\GitHub\quiz\obj\Debug\net5.0\consoleasync.dll
+C:\Users\henry\OneDrive\Documents\GitHub\quiz\obj\Debug\net5.0\ref\consoleasync.dll
+C:\Users\henry\OneDrive\Documents\GitHub\quiz\obj\Debug\net5.0\consoleasync.pdb
+C:\Users\henry\OneDrive\Documents\GitHub\quiz\obj\Debug\net5.0\consoleasync.genruntimeconfig.cache
