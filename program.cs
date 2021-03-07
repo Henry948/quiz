@@ -50,7 +50,7 @@ namespace Quiz
                 {
                     Console.WriteLine("Please respond with 'true' or 'false'.");
                     input = Console.ReadLine();
-                    Boolean.TryParse(input, out inputBool);
+                    isBool = Boolean.TryParse(input, out inputBool);
                 }
 
                 responses[askingIndex] = inputBool;
