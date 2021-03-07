@@ -32,6 +32,18 @@ namespace Quiz
             {
                 Console.WriteLine("There seems to be an error");
             }
+
+            int askingIndex = 0;
+
+            foreach(string question in questions)
+            {
+                string input;
+                bool isBool;
+                bool inputBool;
+
+                Console.WriteLine(question);
+                input = Console.ReadLine();
+            }
         }
     }
 }
