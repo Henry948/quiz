@@ -78,6 +78,42 @@ namespace Quiz
             // Scoring the User
             int scoringIndex = 0;
             int score = 0;
+
+            // for each answer in answers the below code will run
+            foreach(bool answer in answers)
+            {
+                // This checks the user input at the current value of scoring index
+                bool responseIndex = responses[scoringIndex];
+                Console.WriteLine($"Input: {responseIndex} | Answer: {answer}");
+
+                // This will check that both values are the same and add 1 to the users score
+                if(responseIndex == answer)
+                {
+                    score++;
+                }
+
+                scoringIndex++;
+
+            }
+            
+            // added a switch case to give different outputs dependent on the score
+            switch(score)
+            {
+                case 1:
+                   Console.WriteLine($"you scored {score} out of 4! Better luck next time");
+                break;
+                case 2:
+                    Console.WriteLine($"you scored {score} out of 4! Halfway there!");
+                break;
+                case 3:
+                    Console.WriteLine($"you scored {score} out of 4! Almost there!");
+                break;
+                case 4:
+                    Console.WriteLine($"Congratulations you scored full marks with {score}");
+                break;
+                default:
+                break;
+            }
         }
     }
 }
