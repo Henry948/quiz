@@ -6,10 +6,14 @@ namespace Quiz
     {
         static void Main(string[] args)
         {
+            // Start of the Quiz
             Console.WriteLine("Welcome to 'The Quiz'\nPress enter to begin: ");
             string entry = Console.ReadLine();
-            Tools.SetUpInputStream(entry);
 
+            //awaits user to press enter to run the program
+            Tools.SetUpInputStream(entry);
+            
+            // Array to store the questions
             string[] questions = new string[] 
             {
                 "VW manufactures the RS5, TRUE or FALSE?",
@@ -18,6 +22,7 @@ namespace Quiz
                 "Honda only manufacture cars for Asia, TRUE or FALSE?"
             };
 
+            //array to store the set answers for the questions
             bool[] answers = new bool[] 
             {
                 false, 
@@ -26,15 +31,19 @@ namespace Quiz
                 false, 
             };
 
+            // array to store the responses from the user
             bool[] responses = new bool[4];
 
+            // if statement to ensure that the questions never exceed the answers
             if (questions.Length != answers.Length)
             {
                 Console.WriteLine("There seems to be an error");
             }
 
+            // Start of the functionality of the program
             int askingIndex = 0;
 
+            // foreach question in questions the below code will run
             foreach(string question in questions)
             {
                 string input;
@@ -46,6 +55,7 @@ namespace Quiz
 
                 isBool = Boolean.TryParse(input, out inputBool);
 
+                // While the user input does not equal a boolean run the below code until the desired input is met
                 while(isBool == false)
                 {
                     Console.WriteLine("Please respond with 'true' or 'false'.");
@@ -53,14 +63,21 @@ namespace Quiz
                     isBool = Boolean.TryParse(input, out inputBool);
                 }
 
+                // store answer in responses then move onto the next question
                 responses[askingIndex] = inputBool;
                 askingIndex++;
             }
 
-            foreach(bool response in responses)
-            {
-                Console.WriteLine(response);
-            }
+            // below was for testing the responses array
+
+            // foreach(bool response in responses)
+            // {
+            //     Console.WriteLine(response);
+            // }
+
+            // Scoring the User
+            int scoringIndex = 0;
+            int score = 0;
         }
     }
 }
