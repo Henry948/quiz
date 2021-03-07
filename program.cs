@@ -45,6 +45,16 @@ namespace Quiz
                 input = Console.ReadLine();
 
                 Boolean.TryParse(input, out inputBool);
+
+                while(isBool == false)
+                {
+                    Console.WriteLine("Please respond with 'true' or 'false'.");
+                    input = Console.ReadLine();
+                    Boolean.TryParse(input, out inputBool);
+                }
+
+                responses[askingIndex] = inputBool;
+                askingIndex++;
             }
         }
     }
