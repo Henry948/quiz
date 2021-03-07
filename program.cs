@@ -43,6 +43,8 @@ namespace Quiz
 
                 Console.WriteLine(question);
                 input = Console.ReadLine();
+
+                Boolean.TryParse(input, out inputBool);
             }
         }
     }
