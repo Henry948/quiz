@@ -44,7 +44,7 @@ namespace Quiz
                 Console.WriteLine(question);
                 input = Console.ReadLine();
 
-                Boolean.TryParse(input, out inputBool);
+                isBool = Boolean.TryParse(input, out inputBool);
 
                 while(isBool == false)
                 {
@@ -56,6 +56,8 @@ namespace Quiz
                 responses[askingIndex] = inputBool;
                 askingIndex++;
             }
+
+            Console.WriteLine(responses);
         }
     }
 }
